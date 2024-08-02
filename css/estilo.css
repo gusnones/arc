@@ -1,0 +1,149 @@
+@import "reset.css";
+
+	body {  
+		background: #303030; 
+		color: #AAA; 
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=hIEfix.png,sizingMethod=crop);
+		min-height: 0;
+	}		
+	
+	#contenedor
+	{		
+		margin:0 auto;
+		padding:10px;
+		clear:both;				
+		width:900px;
+	}
+	
+	/* --------------- HEADER --------------- */
+	
+	#header	{ height: 221px; }
+	
+	#titulo { width:65%; height:100%; float:left;}
+	
+	#parte1
+	{ 		
+		height: 56px;
+		margin-top: 60px;
+		background: url(../images/01-texto_arc.png) no-repeat;
+		background-position: right;
+		text-indent: -9999px;		
+	}
+	
+	#parte2
+	{ 		
+		background: url(../images/01-texto_diseno_y_arquitectura.png) no-repeat;
+		background-position: right;
+		height: 27px;
+		margin-top: 35px;
+		text-indent: -9999px;
+	}
+	
+	#parte3
+	{  
+		background: url(../images/01-texto_slogan.png) no-repeat;				
+		background-position: right;
+		height: 18px;
+		margin-top: 0px;
+		text-indent: -9999px;
+	}
+				
+	#separator
+	{ 
+		background: url(../images/01-separador.png) no-repeat;	
+		background-position: center;
+		width: 10%; 
+		height:85%; 
+		margin-top: 40px;
+		float:left;		
+	}
+	
+	#logo
+	{
+		background: url(../images/01-logo-con-reflejo.png) no-repeat;
+		background-position: left;
+		width: 160px; 
+		height: 225px;
+		margin-top: 30px;		
+		float:left; 
+	}
+	
+	/* ------------- MENU ------------- */
+	#menu 
+	{	
+		margin: 30px auto;
+		padding: 0;
+		list-style: none;		
+		width: 100%;		
+		
+		border-top: 1px solid #777;
+		border-bottom: 1px solid #777;				
+				
+		float: left;
+		font-family: Helvetica, Arial, sans-serif; 
+		/*margin-left: 80px;	*/
+		font-size: 0.9em;
+		cursor: default;
+	}	
+	
+	#menu li 
+	{
+		margin: 0;
+		padding:0;
+		overflow: hidden;
+		float:left;
+		height: 40px;
+		/*display: inline;*/
+		/*font-size: 16px;*/
+		
+	}	
+	
+	#menu a, #menu span { 
+		padding: 10px 20px;
+		float: left;		 
+		text-decoration: none;
+		color: #BBB;
+		text-transform: uppercase;
+		clear: both;
+		width: 100%;
+		height: 20px;
+		line-height: 20px;
+	}
+	
+	#menu a{ /*color: #1EA500*/  color: #269926; background-position: left buttom;}
+	
+	#menu span{	background-position:left top;}
+	
+	
+	/* --------------- CONTENT --------------- */
+		
+	#content{
+		background-color: #383838;
+		border-top: 1px solid #555;
+						
+		color: #CCC;
+		font-family: Helvetica, Arial, sans-serif; 
+		/*margin-left: 80px;	*/
+		font-size: 0.9em;
+		
+		clear: both;
+		height:700px;
+		margin: 25px auto 10px;		
+	}
+	
+	#slider { width:900px; height:700px;}
+	#slider ul { width: 900px; height: 700px; padding: 10px;}
+	#slider ul li { width: 900px; height: 700px;}
+	
+	/* --------------- FOOTER --------------- */
+	
+	#footer{
+		background-color: #FAAC58;
+		height:100px;
+		margin-bottom: 5px;
+		
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+	

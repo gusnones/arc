@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="StyleSheet" href="./css/estilo.css" type="text/css" media="screen"/>
+		<title>ARC - Diseño y Arquitectura</title>
+		<script type="text/javascript" src="./js/jquery-1.6.2.js"></script>
+		<script type="text/javascript" src="./js/menu.js"></script>
+		<script type="text/javascript" src="./js/easySlider1.5.js"></script>
+		<script type="text/javascript"> 
+   		$(document).ready(function(){	
+			$("#slider").easySlider({
+				vertical: false, 
+				continuous: false,
+				pause: 0,
+				speed: 300
+			});
+		});
+		</script> 	
+</head>
+
+	<body>
+		<div id="contenedor">
+			<a href="index.html">
+				<div id="header">
+					
+					<div id="titulo">
+						<div id="parte1">ARQ</div>
+						<div id="parte2">ARQUITECTURA Y DISEÑO</div>
+						<div id="parte3">... A TAN SOLO UN PASO DE CONCRETAR TUS IDEAS</div>
+					</div>
+					
+					<div id="separator"></div>
+					
+					<div id="logo"></div>
+				</div>
+			</a>
+			
+			<ul id="menu">
+				<li><a id="inicio" href="javascript:void(0);" class="inicio">Inicio</a></li>
+				<li><a id="interiores" href="javascript:void(0);" class="interiores">Interiores</a></li>
+				<li><a id="exteriores" href="javascript:void(0);" class="exteriores">Exteriores</a></li>
+				<li><a id="teatro" href="javascript:void(0);" class="teatro">Teatro</a></li>
+				<li><a id="maquetas" href="javascript:void(0);" class="maquetas">Maquetas</a></li>
+				<li><a id="otros" href="javascript:void(0);" class="otros">Otros</a></li>
+				<li><a id="contacto" href="javascript:void(0);" class="contacto">Contacto</a></li>					
+			</ul>			
+			
+			<div id="content">
+				<div id="slider">
+					<ul>
+						<li>Inicio</li>
+						<li>Interiores</li>
+						<li>Exteriores</li>
+						<li>Teatro</li>
+						<li>Maquetas</li>
+						<li>Otros</li>
+						<li>Contacto</li>					
+					</ul>
+				</div>
+			</div>
+			
+			<div id="footer"></div>
+		</div>
+	</body>
+</html>
